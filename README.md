@@ -20,3 +20,20 @@ xchg-backoff            0.084343	0.167522	0.924299	2.786340	40.560166
 mcs                     0.073797	0.125819	0.423952	1.217162	6.716630
 k42                     0.162412	0.241256	0.444286	1.850383	5.780539
 ```
+
+Contributing
+------------
+
+To contribute to spin-lock-tests, clone this repo locally and commit your code on a separate branch. 
+
+
+Author
+------
+
+> GitHub [@detailyang](https://github.com/detailyang)     
+
+
+License
+-------
+
+pre-commit-shell is licensed under the [MIT](https://github.com/detailyang/spin-lock-tests/blob/master/LICENSE) license.  
