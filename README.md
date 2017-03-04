@@ -1,5 +1,6 @@
-# spin-lock-tests
+# spin-lock-tests [![Build](https://api.travis-ci.org/detailyang/spin-lock-tests.svg)](https://travis-ci.org/detailyang/spin-lock-tests)
 A few spin lock tests in N(1 2 4 6 8 16) threads on `Intel(R) Core(TM) i5-4258U CPU @ 2.40GHz` 
+
 #Purpose
 
 Inspired by [http://locklessinc.com/articles/locks/](http://locklessinc.com/articles/locks/) and [https://github.com/cyfdecyf/spinlock](https://github.com/cyfdecyf/spinlock) to learn spink lock.
