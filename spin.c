@@ -7,6 +7,8 @@
 #include "xchg.h"
 #elif defined(CAS)
 #include "cas.h"
+#elif defined(XCHG_BACKOFF)
+#include "xchg-backoff.h"
 #elif defined(MCS)
 #include "mcs.h"
 mcs_lock cnt_lock = NULL;

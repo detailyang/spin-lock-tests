@@ -1,7 +1,7 @@
 #! /bin/bash
 
 
-ALGO=(cas xchg mcs k42)
+ALGO=(cas xchg xchg-backoff mcs k42)
 
 for spin in "${ALGO[@]}"; do
 	result=()

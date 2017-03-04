@@ -34,5 +34,6 @@
 
 cas
 xchg
+xchg-backoff
 mcs
 k42
