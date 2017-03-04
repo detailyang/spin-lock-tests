@@ -1,5 +1,7 @@
 CFLAGS := -lpthread
-all: xchg xchg-backoff cas mcs k42
+TARGETS := xchg xchg-backoff cas mcs k42
+
+all: $(TARGETS)
 
 xchg: spin.c xchg.h
 	$(CC) $< -o $@ -D XCHG $(CFLAGS)
@@ -15,3 +17,11 @@ mcs: spin.c mcs.h
 
 k42: spin.c k42.h
 	$(CC) $< -o $@ -D K42 $(CFLAGS)
+
+test:
+	bash ./run_tests.sh
+
+clean:
+	rm -rf $(TARGETS)
+
+.PHONY: test clean
