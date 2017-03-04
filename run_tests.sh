@@ -9,7 +9,7 @@ for spin in "${ALGO[@]}"; do
 		t=$(./$spin $i)
 		result+=("$t")
 	done
-	printf "%-8s" "$spin"
+	printf "%-24s" "$spin"
 	for value in "${result[@]}"; do 
 	    printf "%s\n" "${value}"
 	done | column
