@@ -37,4 +37,4 @@ Author
 License
 -------
 
-pre-commit-shell is licensed under the [MIT](https://github.com/detailyang/spin-lock-tests/blob/master/LICENSE) license.  
+spin-lock-tests is licensed under the [MIT](https://github.com/detailyang/spin-lock-tests/blob/master/LICENSE) license.  
